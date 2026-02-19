@@ -5,7 +5,7 @@ Resources:
   ArtifactBucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: website-FLARGENESH
+      BucketName: website-flargenesh
       WebsiteConfiguration:
         IndexDocument: index.html
         ErrorDocument: error.html
